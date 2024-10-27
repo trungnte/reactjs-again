@@ -27,12 +27,11 @@ export default function Header() {
 
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
+                                Hooks
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><NavLink className="dropdown-item" href="#">Action</NavLink></li>
-                                    <li><NavLink className="dropdown-item" href="#">Another action</NavLink></li>
-                                    <li><NavLink className="dropdown-item" href="#">Something else here</NavLink></li>
+                                    <NavLink className="dropdown-item" to="/use-state">useState</NavLink>
+                                    <NavLink className="dropdown-item" to="/use-effect">useEffect</NavLink>
                                 </ul>
                             </li>
                         </ul>
