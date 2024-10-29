@@ -9,7 +9,7 @@ import Registers from './pages/Registers/Registers';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import DemoUseState from './pages/Hook/DemoUseState/DemoUseState';
-
+import DemoUseEffect from './pages/Hook/DemoEffect/DemoUseEffect';
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
         <Route exact path="/login" element={<Login />}/>
         <Route exact path="/registers" element={<Registers />}/>
         <Route exact path="/use-state" element={<DemoUseState />} />
+        <Route exact path="/use-effect" element={<DemoUseEffect />} />
 
       </Routes>
     </BrowserRouter>
