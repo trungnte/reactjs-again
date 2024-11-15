@@ -10,6 +10,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import DemoUseState from './pages/Hook/DemoUseState/DemoUseState';
 import DemoUseEffect from './pages/Hook/DemoEffect/DemoUseEffect';
+import DemoUseCallback from './pages/Hook/DemoUseCallback/DemoUseCallback';
+import DemoUseMemo from './pages/Hook/DemoUseMemo/DemoUseMemo';
+import DemoUseRef from './pages/Hook/DemoUseRef/DemoUseRef';
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
         <Route exact path="/registers" element={<Registers />}/>
         <Route exact path="/use-state" element={<DemoUseState />} />
         <Route exact path="/use-effect" element={<DemoUseEffect />} />
+        <Route exact path="/use-callback" element={<DemoUseCallback />} />
+        <Route exact path="/use-memo" element={<DemoUseMemo />} />
+        <Route exact path="/use-ref" element={<DemoUseRef />} />
 
       </Routes>
     </BrowserRouter>
