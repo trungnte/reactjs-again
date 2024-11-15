@@ -32,6 +32,9 @@ export default function Header() {
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <NavLink className="dropdown-item" to="/use-state">useState</NavLink>
                                     <NavLink className="dropdown-item" to="/use-effect">useEffect</NavLink>
+                                    <NavLink className="dropdown-item" to="/use-callback">useCallback</NavLink>
+                                    <NavLink className="dropdown-item" to="/use-memo">useMemo</NavLink>
+                                    <NavLink className="dropdown-item" to="/use-ref">useRef</NavLink>
                                 </ul>
                             </li>
                         </ul>
